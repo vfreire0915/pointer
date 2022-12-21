@@ -1,0 +1,151 @@
+body {
+    background-color: #faad49;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+div#imagem {
+    background-color: black;
+    
+}
+
+img#logo{
+    width: 250px;
+}
+
+header h1 {
+    margin-bottom: -15px;
+    
+}
+
+header h2 {
+    color: aliceblue;
+}
+
+div#corpo {
+    height: 250px;
+    margin-bottom: 0px;
+    border-bottom: dashed;
+    height: 50px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    background-color: #808080;
+    padding: 5px;
+    margin-right: 10px;
+    color: black;
+}
+
+
+li:hover {
+    background-color: bisque;
+}
+
+.itens {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    border-bottom: dotted;
+}
+
+.nome {
+    width: 300px;
+}
+
+.nome h2 {
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.itens img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: -20px;
+}
+.preco {
+    width: 300px;
+    position: relative;
+    
+}
+
+.preco p {
+    text-align: center;
+    color: rgb(39, 102, 20);
+    margin-top: 30px;
+    font: 20pt Impact,fantasy;
+}
+
+
+.itens label {
+    font: 18pt normal Arial;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    padding: 10px;
+    width: 950px;
+}
+
+.cel {
+    display: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+footer i {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+footer a {
+    color: white;
+}
+footer i#inst {
+    color: rgb(184, 29, 184);
+}
+footer i#wpp {
+    color: rgb(99, 216, 45);
+}
+
+@media screen and (max-width:1340px) {
+    .tudo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nome {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .preco {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .itens {
+        text-align: center;
+    }
+    label {
+        display: none;
+    }
+    .cel {
+        display: block;
+        font: 15pt normal Arial;
+    }
+}
